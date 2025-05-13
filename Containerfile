@@ -4,21 +4,21 @@ ARG GIT_ID
 ARG TARGETARCH
 ARG BUILD_DATE
 
-LABEL name="Enterprise Contract Golden Container" \
+LABEL name="Conforma Golden Container" \
       vendor="Red Hat, Inc." \
-      maintainer="hacbs-contract@redhat.com" \
+      maintainer="conforma@redhat.com" \
       version="1" \
       release="1" \
       build-date=$BUILD_DATE \
-      summary="Trivial image build in compliance with Enterprise Contract policy" \
-      description="Trivial image build in compliance with Enterprise Contract policy" \
-      url="https://github.com/enterprise-contract/golden-container" \
+      summary="Trivial image build in compliance with Conforma policy" \
+      description="Trivial image build in compliance with Conforma policy" \
+      url="https://github.com/conforma/golden-container" \
       distribution-scope="public" \
-      io.k8s.description="Trivial image build in compliance with Enterprise Contract policy" \
-      io.k8s.display-name="Enterprise Contract Contract Golden Container" \
+      io.k8s.description="Trivial image build in compliance with Conforma policy" \
+      io.k8s.display-name="Conforma Golden Container" \
       io.openshift.tags="golden" \
       vcs-ref=$GIT_ID \
       vcs-type=git \
       architecture=$TARGETARCH \
-      com.redhat.component="enterprise-contract-golden-container" \
+      com.redhat.component="conforma-golden-container" \
       com.redhat.build-host="somewhere.over.the.rainbow"

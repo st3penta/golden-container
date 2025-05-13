@@ -1,6 +1,6 @@
 # golden-container
 
-Trivial definition of a multi-arch image build (amd64/arm64) in compliance with Enterprise Contract
+Trivial definition of a multi-arch image build (amd64/arm64) in compliance with Conforma
 policy.
 
 The latest released image is available at `quay.io/konflux-ci/ec-golden-image:latest`.
