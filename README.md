@@ -15,6 +15,3 @@ manually create a `PipelineRun` based on [pull-request.yaml](./.tekton/pull-requ
 values wrapped in double curly brances, e.g. `{{ revision }}`, with the expected literal, e.g.
 `main`.
 
-
-
-
