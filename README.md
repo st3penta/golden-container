@@ -14,3 +14,4 @@ Best use `hack/rebuild.sh` from [ec-cli](https://github.com/enterprise-contract/
 manually create a `PipelineRun` based on [pull-request.yaml](./.tekton/pull-request.yaml). Replace
 values wrapped in double curly brances, e.g. `{{ revision }}`, with the expected literal, e.g.
 `main`.
+
