@@ -16,4 +16,3 @@ values wrapped in double curly brances, e.g. `{{ revision }}`, with the expected
 `main`.
 
 
-
