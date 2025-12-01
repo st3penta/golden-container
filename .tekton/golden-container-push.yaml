@@ -25,7 +25,7 @@ spec:
   - name: output-image
     value: quay.io/st3penta-konflux-test-registry/user-ns2/golden-container:{{revision}}
   - name: dockerfile
-    value: https://github.com/st3penta/golden-container/blob/main/Containerfile
+    value: Containerfile
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while maintaining trust after pipeline customization.
